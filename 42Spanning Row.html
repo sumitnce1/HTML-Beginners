@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spanning Row</title>
+  </head>
+  <body>
+       <h1><center>Spanning Row</center></h1>
+       <hr>
+          <!--left table  merge column-->
+    <table
+      border="5"
+      width="50%"
+      align="left"
+      bgcolor="yellow"
+      cellpadding="10"
+      cellspacing="9"
+
+    >
+      
+
+      <th rowspan="5">Name & Roll No. & Result</th>
+
+      <tr>
+        <td align="center">Sumit</td>
+        <td align="center">58</td>
+        <td align="center">1st</td>
+      </tr>
+
+      <tr>
+        <td align="center">Bhanu</td>
+        <td align="center">24</td>
+        <td align="center">1st</td>
+      </tr>
+
+      <tr>
+        <td align="center">Shubham</td>
+        <td align="center">66</td>
+        <td align="center">1st</td>
+      </tr>
+
+      <tr>
+        <td align="center">Rahul</td>
+        <td align="center">63</td>
+        <td align="center">1st</td>
+      </tr>
+    </table>
+
+    <!--Right table  merge row-->
+    <table
+    border="5"
+    width="40%"
+    align="Right"
+    bgcolor="gree"
+    cellpadding="10"
+  >
+    
+
+  <th>Name</th>
+  <th>Roll No.</th>
+  <th>Result</th>
+
+    <tr>
+      <td align="center">Sumit</td>
+      <td align="center">58</td>
+      <td align="center" rowspan="2">1st</td>
+    </tr>
+
+    <tr>
+      <td align="center">Bhanu</td>
+      <td align="center">24</td>
+    </tr>
+
+    <tr>
+      <td align="center">Shubham</td>
+      <td align="center">66</td>
+      <td align="center" rowspan="2">2nd</td>
+    </tr>
+
+    <tr>
+      <td align="center">Rahul</td>
+      <td align="center">63</td>
+    </tr>
+  </table>
+
+  </body>
+</html>
